@@ -6,6 +6,6 @@
    - name: Launching ec2 instance with ec2 module 
      ec2:
       instance_type: t2.micro
-      image: ami-011b3ccf1bd6db744
-      key_name: ansible_key
+      image: ami-0f9fc25dd2506cf6d
+      key_name: JenkinsKEY
       region: us-east-1
